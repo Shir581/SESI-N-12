@@ -12,8 +12,10 @@ document.getElementById("numForm1").addEventListener("submit", function (event) 
     ];
 
     // Validar si los valores son números
+    for (i = 0; i < numeros.length; i++){
     if( isNaN(numeros)) {
         return "Ingrese un valor numérico";
+        }
     }
   
 
