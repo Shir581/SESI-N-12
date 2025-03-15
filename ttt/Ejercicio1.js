@@ -23,7 +23,7 @@ document.getElementById("numForm1").addEventListener("submit", function (event) 
     // Escribe un código que recorra un arreglo de números y calcule la suma total.
     let Sumatoria = 0.0;
 
-    for(Let i = 0; i < numeros.length; i++) {
+    for(Let i = 0; i < numeros.length; i++){
         Sumatoria = Sumatoria + numeros[i];
     }
 
